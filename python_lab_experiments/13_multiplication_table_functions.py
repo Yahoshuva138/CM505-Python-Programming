@@ -92,7 +92,7 @@ print("Method 6: Compare Tables")
 def compare_tables(num1, num2, limit=5):
     """Compare multiplication tables"""
     print(f"\nComparison of Tables {num1} and {num2}:")
-    print(f"{'i':<5} {num1}×i":<12} {num2}×i":<12}")
+    print(f"{'i':<5} {num1}×i    {num2}×i")
     print("-" * 29)
     for i in range(1, limit + 1):
         print(f"{i:<5} {num1*i:<12} {num2*i:<12}")
